@@ -1,0 +1,23 @@
+{
+  "name": "football-videos",
+  "version": "1.0.0",
+  "description": "<!-- HOW TO USE: This is an example of how you may give instructions on setting up your project locally.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMGGYY66/football.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMGGYY66/football/issues"
+  },
+  "homepage": "https://github.com/MMGGYY66/football#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
