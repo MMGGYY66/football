@@ -4,25 +4,33 @@ body {
 }
 
 #container {
-	margin         : 80px auto;
-	width          : 85%;
-	height         : auto;
-	position       : relative;
-	border-radius  : 32px;
-	text-align     : center;
-	background     : rgba(0, 0, 0, 0.9);
-	box-sizing     : border-box;
-	box-shadow     : 8px 8px rgba(0, 0, 0, .9);
-	display        : flex;
-	flex-direction : column;
-	align-items    : center;
-	justify-content: space-between;
+	margin               : 80px auto;
+	width                : 85%;
+	height               : auto;
+	position             : relative;
+	text-align           : center;
+	background           : rgba(0, 0, 0, 0.9);
+	box-sizing           : border-box;
+	box-shadow           : 8px 8px rgba(0, 0, 0, .9);
+	display              : flex;
+	flex-direction       : column;
+	align-items          : center;
+	justify-content      : space-between;
+	-webkit-border-radius: 32px;
+	-moz-border-radius   : 32px;
+	-ms-border-radius    : 32px;
+	-o-border-radius     : 32px;
+	border-radius        : 32px;
 }
 
 .img {
-	width        : 75%;
-	border-radius: 32px;
-	margin       : 10px 0 20px;
+	width                : 75%;
+	margin               : 10px 0 20px;
+	-webkit-border-radius: 32px;
+	-moz-border-radius   : 32px;
+	-ms-border-radius    : 32px;
+	-o-border-radius     : 32px;
+	border-radius        : 32px;
 }
 
 button {
@@ -64,4 +72,9 @@ h2 {
 
 .video {
 	width: 75%;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid rgba(246, 241, 255, 0.9);
 }
